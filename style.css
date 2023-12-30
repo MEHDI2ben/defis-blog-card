@@ -1,8 +1,51 @@
-body{
-    background-color: hsl(47, 88%, 63%);
+body {
+  background-color: hsl(47, 88%, 63%);
+  min-height: 100vh;
+  display: flex;
+  margin: 16px;
 }
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Figtree", sans-serif;
+}
+article {
+  margin: auto;
+  background-color: white;
+  width: 360px;
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid black;
+  box-shadow: 5px 5px 0 black;
+}
+article > img {
+  width: 100%;
+  border-radius: 15px;
+}
+div.chip {
+  padding: 6px 16px;
+  background-color: hsl(47, 88%, 63%);
+  width: fit-content;
+  border-radius: 8px;
+  margin: 8px 0;
+}
+h1 {
+  font-size: 20px;
+  margin: 8px 0;
+}
+P {
+  margin: 20px 0;
+}
+div {
+  margin: 12px 0;
+}
+img.profil {
+  width: 32px;
+}
+div.foo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: bolder;
 }
